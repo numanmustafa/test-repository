@@ -7,7 +7,7 @@ import {
 
   Given("user opens OneBlog", () => {
     cy.visit("https://app.oneblog.live")
-    cy.cookiesAcceptButton().click()
+    // cy.cookiesAcceptButton().click()
   });
 
   When("user navigates to Browse page", () => {
