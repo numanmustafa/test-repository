@@ -18,7 +18,7 @@ import {
   });
 
   Given('user is on the browse page', () => {
-    cy.visit('https://dev.oneblog.live/browse')
+    cy.visit('https://app.oneblog.live/browse')
   });
 
   When("user filters for author", () => {
